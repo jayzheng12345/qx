@@ -1,6 +1,12 @@
-^http[s]?:\/\/app\.thwlqy\.com\/login\/login\/veifys\.html url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/qysj.js
-
+ 
+[rewrite_local]
+http:\/\/app\.thwlqy\.com\/login\/login\/sign\.html url script-response-body 自己命名.js
+[mitm] 
 hostname = app.thwlqy.com
+
+//hostname :app.thwlqy.com
+sign.html
+//重写链接：http:\/\/app\.thwlqy\.com\/login\/login\/sign\.html
 
 ****************************/
 
