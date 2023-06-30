@@ -1,6 +1,6 @@
  
 [rewrite_local]
-http:\/\/app\.thwlqy\.com\/login\/login\/sign\.html url script-response-body 自己命名.js
+http:\/\/app\.thwlqy\.com\/login\/login\/sign\.html url script-response-body https://raw.githubusercontent.com/jayzheng12345/qx/main/qianyi.js
 [mitm] 
 hostname = app.thwlqy.com
 
