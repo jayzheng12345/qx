@@ -1,5 +1,5 @@
 [rewrite_local]
-^https:\/\/open3\.vistastory\.com\/v3\/api\/vip url script-response-body https://github.com/jayzheng12345/qx/blob/main/tian.js
+^https:\/\/open3\.vistastory\.com\/v3\/api\/vip url script-response-body https://raw.githubusercontent.com/jayzheng12345/qx/main/tian.js
 [mitm] 
 hostname = open3.vistastory.com
 
