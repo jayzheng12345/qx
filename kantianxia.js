@@ -1,5 +1,5 @@
 [rewrite_local]
-^https:\/\/open3\.vistastory\.com\/v3\/api\/vip url script-response-body https://github.com/jayzheng12345/qx/blob/f415d630c5e254c6e931ef3e1c32416142733548/kantianxia.js
+^https:\/\/open3\.vistastory\.com\/v3\/api\/vip url script-response-body https://raw.github.com/jayzheng12345/qx/blob/f415d630c5e254c6e931ef3e1c32416142733548/kantianxia.js
 [mitm] 
 hostname = open3.vistastory.com
 
