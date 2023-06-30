@@ -1,5 +1,5 @@
 [rewrite_local]
-^https:\/\/kittens\.afunapp\.com\/user\/get_user_info url script-response-body 自己命名.js
+^https:\/\/kittens\.afunapp\.com\/user\/get_user_info url script-response-body https://raw.githubusercontent.com/jayzheng12345/qx/main/chaidanmao.js
 [mitm] 
 hostname = kittens.afunapp.com
 
