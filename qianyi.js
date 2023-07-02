@@ -1,18 +1,12 @@
  
 [rewrite_local]
-http:\/\/app\.thwlqy\.com\/login\/login\/sign\.html url script-response-body https://raw.githubusercontent.com/jayzheng12345/qx/main/qianyi.js
+^https:\/\/chat\.feixue666\.com\/api\/account\/info url script-response-body https://raw.githubusercontent.com/jayzheng12345/qx/main/qianyi.js
 [mitm] 
-hostname = app.thwlqy.com
-
-//hostname :app.thwlqy.com
-sign.html
-//重写链接：http:\/\/app\.thwlqy\.com\/login\/login\/sign\.html
-
-****************************/
-
-
+hostname = chat.feixue666.com
 
 var body = $response.body; 
 let obj = JSON.parse($response.body);
-obj.msg.time = -1 ;
+obj.data. remainingPoints = 999999 ;
+obj.data. totalPoints = 999999 ;
+obj.data. isDisable = 1 ;
 $done({body: JSON.stringify(obj)});
