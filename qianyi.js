@@ -7,7 +7,7 @@
 ******************************************
 
 [task_local]
-30 8 * * * 60s.js, tag=每天60s读懂世界
+30 9 * * * https://raw.githubusercontent.com/jayzheng12345/qx/main/qianyi.js, tag=每天60s读懂世界
 
 ******************************************/
 
